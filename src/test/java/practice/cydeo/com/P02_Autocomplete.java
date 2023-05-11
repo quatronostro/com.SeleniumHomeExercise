@@ -6,9 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilities.TestBase;
 
-import java.util.List;
-
-public class Autocomplete extends TestBase {
+public class P02_Autocomplete extends TestBase {
 
     @Test
     public void test(){
