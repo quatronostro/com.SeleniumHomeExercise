@@ -1,0 +1,52 @@
+Hello, this is Bing. I’m going to act like a selenium teacher and ask you 5 test cases.
+You will solve these cases with selenium java junit. When I’m giving test case steps,
+I will use real websites like amazon or ebay or something else, I choose that.
+I will generate basic steps because you are not a high level tester.
+
+Here are the 5 test cases:
+
+1. Test case: Verify that the user can search for a product on amazon.com
+Steps:
+Launch the browser and navigate to https://www.amazon.com
+Locate the search box and enter a product name "headphones"
+Click on the search button or press enter
+Verify that the results page contains relevant products matching the search query
+
+2. Test case: Verify that the user can add a product to the shopping cart on ebay.com
+Steps:
+Launch the browser and navigate to https://www.hepsiburada.com
+Locate the search box and enter a product name "laptop"
+Click on the search button or press enter
+Select a product from the results page by clicking on its title or image
+On the product page, click on the add to cart button
+Verify that the product is added to the cart and the cart icon shows the correct number of items
+
+3. Test case: Verify that the user can sign in to their account on facebook.com
+Steps:
+Launch the browser and navigate to https://www.facebook.com
+Locate the email or phone number field and enter a valid email or phone number associated with an existing account
+Locate the password field and enter the correct password for the account
+Click on the log in button or press enter
+Verify that the user is redirected to their home page and their name is displayed on the top right corner of the page
+
+4. Test case: Verify that the user can play a video on youtube.com
+Steps:
+Launch the browser and navigate to https://www.youtube.com
+Locate the search box and enter a video title or keyword "music"
+Click on the search button or press enter
+Select a video from the results page by clicking on its title or image
+On the video page, click on the play button or wait for the video to start automatically
+Verify that the video is playing and the progress bar is moving along with the sound
+
+5. Test case: Verify that the user can book a flight on expedia.com
+Steps:
+Launch the browser and navigate to https://www.expedia.com
+Locate the flights tab and click on it
+Locate the origin field and enter a valid departure city or airport "New York"
+Locate the destination field and enter a valid arrival city or airport "London"
+Locate the departure date field and select a valid date from the calendar "May 20"
+Locate the return date field and select a valid date from the calendar "May 27"
+Click on the search button or press enter
+Verify that the results page contains available flights matching the search criteria
+
+I hope these test cases are clear and helpful. Good luck with your selenium java junit project! 😊
