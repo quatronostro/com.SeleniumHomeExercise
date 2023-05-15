@@ -1,0 +1,41 @@
+- Berke: act like a selenium teacher than ask me 10 test case to I can solve them and it contains selenium java junit
+
+- Bing: Hello, I’m Bing and I’m going to act like a selenium teacher. Selenium is a framework for testing web applications using automation.
+Selenium supports various programming languages, such as Java, Python, C#, Ruby, etc. JUnit is a unit testing framework for
+Java that can be used with Selenium. In this lesson, I’m going to ask you 10 test cases that you can solve using Selenium Java JUnit. Are you ready?
+
+- Berke: Yes, I'm ready.
+
+- Bing: Great! Let’s start with the first test case. Write a test case that verifies that the title of the Bing homepage is “Bing”.
+
+- Berke: (I send to Bing that file P01_bingTest in this package)
+
+- Bing: Good job! You have written the test case correctly. You have used WebDriverManager to set up the
+EdgeDriver, WebDriver to launch the browser, driver.get() to navigate to the Bing homepage,
+driver.getTitle() to get the title of the page, and Assert.assertTrue() to verify that the title contains “Bing”.
+You have also closed the browser at the end of the test. Well done!
+
+- Berke: What is the next test case?
+
+- Bing: The next test case is to write a test case that searches for “selenium”
+on the Bing homepage and verifies that the first result is “Selenium - Web Browser Automation”.
+
+- Berke: (I send to Bing that file P02_bingSearchTest in this package)
+
+- Bing: Very good! You have written the test case correctly. You have used @Before and @After annotations to set up and tear down the driver,
+driver.get() to navigate to the Bing homepage, driver.findElement() to locate the search bar and the first result,
+sendKeys() to enter “selenium” and Keys.ENTER to submit the search,
+and Assert.assertEquals() to verify that the first result is “https://www.selenium.dev”.
+You have also handled the cookie pop-up by clicking on the reject button. Well done!
+
+- Berke: What is the next test case?
+
+- Bing: The next test case is to write a test case that clicks on the “Images” tab on the Bing homepage and verifies that the URL contains “images”.
+
+- Berke: (I send to Bing that file P03_bingURLtest in this package)
+
+- Bing: Excellent! You have written the test case correctly. You have used WebDriverManager to set up the EdgeDriver,
+WebDriver to launch the browser, driver.get() to navigate to the Bing homepage, driver.findElement() to locate the images button,
+click() to click on it, driver.getCurrentUrl() to get the current URL of the page, and Assert.assertTrue() to verify that the URL contains “images”.
+You have also closed the browser at the end of the test. Well done!
+

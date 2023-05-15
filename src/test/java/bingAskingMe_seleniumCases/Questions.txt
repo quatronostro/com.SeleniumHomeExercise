@@ -12,7 +12,7 @@ Locate the search box and enter a product name "headphones"
 Click on the search button or press enter
 Verify that the results page contains relevant products matching the search query
 
-2. Test case: Verify that the user can add a product to the shopping cart on ebay.com
+2. Test case: Verify that the user can add a product to the shopping cart on hepsiburada.com
 Steps:
 Launch the browser and navigate to https://www.hepsiburada.com
 Locate the search box and enter a product name "laptop"
