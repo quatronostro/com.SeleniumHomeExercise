@@ -1,0 +1,80 @@
+ok lets create 5 case but ask more complex cases and tell me every step that what I should do
+ChatGPT
+Certainly! Here are five complex test cases along with the steps you should follow to implement them using Selenium with Java and JUnit:
+
+Test Case 1:
+Website: www.amazon.com
+Objective: Search for a product, apply filters, and add it to the cart.
+
+Steps:
+
+Launch the browser and navigate to www.amazon.com.
+Enter a specific product name in the search bar.
+Click on the search button.
+Apply relevant filters, such as price range or customer ratings.
+Select a product from the search results.
+Verify that the product page is displayed.
+Add the product to the cart.
+Verify that the product is successfully added to the cart.
+
+Test Case 2:
+Website: www.netflix.com
+Objective: Sign up for a new account and perform a search for a TV show.
+
+Steps:
+
+Launch the browser and navigate to www.netflix.com.
+Click on the "Sign In" button.
+Select the "Sign Up" option.
+Enter valid information details, including name, email, and password.
+Access your profile and verify that the user is logged in.
+Perform a search for a specific TV show.
+Verify that the search results display the TV show and relevant information.
+
+Test Case 3:
+Website: www.linkedin.com
+Objective: Log in with valid credentials and send a connection request to a specific person.
+
+Steps:
+
+Launch the browser and navigate to www.linkedin.com.
+Enter valid login credentials and click on the "Sign In" button.
+Verify that the user is successfully logged in.
+Search for a specific person using their name or profile details.
+Select the desired person from the search results.
+Click on the "Connect" button to send a connection request.
+Verify that the connection request is sent successfully.
+
+Test Case 4:
+Website: www.gmail.com
+Objective: Log in to a Gmail account, compose an email with attachments, and send it.
+
+Steps:
+
+Launch the browser and navigate to www.gmail.com.
+Enter valid login credentials and click on the "Sign In" button.
+Verify that the user is successfully logged in.
+Click on the "Compose" button to create a new email.
+Enter the recipient's email address, subject, and body of the email.
+Attach specific files to the email.
+Click on the "Send" button.
+Verify that the email is sent successfully.
+
+Test Case 5:
+Website: www.booking.com
+Objective: Perform a hotel search, select a hotel, and verify the booking details.
+
+Steps:
+
+Launch the browser and navigate to www.booking.com.
+Enter a specific location and travel dates in the search bar.
+Click on the "Search" button.
+Verify that the search results display available hotels.
+Select a specific hotel from the search results.
+Verify that the hotel details page is displayed.
+Check the booking options, such as room types and prices.
+Verify that the booking details match the selected options.
+
+These complex test cases will require multiple steps and interactions with the web pages.
+By implementing them, you'll gain experience in handling various functionalities and validations using
+Selenium with Java and JUnit.
