@@ -25,7 +25,7 @@ public class P03_LinkedinTest extends TestBase {
         WebElement emailBox = driver.findElement(By.xpath("//*[@autocomplete='username']"));
         emailBox.sendKeys("b.baramuk@gmail.com");
         WebElement passwordBox = driver.findElement(By.xpath("//*[@autocomplete='current-password']"));
-        passwordBox.sendKeys("BEr.Bar.1993");
+        passwordBox.sendKeys("*******"); //Im not sharing my real password here
         driver.findElement(By.xpath("//*[@data-id='sign-in-form__submit-btn']")).click();
 
         //Verify that the user is successfully logged in.
