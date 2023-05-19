@@ -43,7 +43,7 @@ public class P02_netflixTest extends TestBase {
         actions.sendKeys("mbaramuk@hotmail.com")
                 .keyDown(Keys.TAB)
                 .keyUp(Keys.TAB)
-                .sendKeys("Muz994599")
+                .sendKeys("******") //You cant see my password :)
                 .keyDown(Keys.TAB)
                 .keyUp(Keys.TAB)
                 .keyDown(Keys.TAB)

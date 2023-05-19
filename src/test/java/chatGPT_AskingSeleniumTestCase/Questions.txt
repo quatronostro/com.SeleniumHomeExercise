@@ -43,7 +43,7 @@ Verify that the user is successfully logged in.
 Search for a specific person using their name or profile details.
 Select the desired person from the search results.
 Click on the "Connect" button to send a connection request.
-Verify that the connection request is sent successfully.
+
 
 Test Case 4:
 Website: www.gmail.com
