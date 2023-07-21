@@ -40,7 +40,7 @@ public class P02_netflixTest extends TestBase {
         emailBox.click();
 
         Actions actions = new Actions(driver);
-        actions.sendKeys("mbaramuk@hotmail.com")
+        actions.sendKeys("m*******@hotmail.com")
                 .keyDown(Keys.TAB)
                 .keyUp(Keys.TAB)
                 .sendKeys("******") //You cant see my password :)
